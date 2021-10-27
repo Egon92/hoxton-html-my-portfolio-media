@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration-line: none;
+}
+
+body{
+    font-family: 'Karla'
+}
+header{
+    background-color:rgba(232, 114, 93);
+    padding: 1.5rem;
+    justify-content: center;
+}
+nav{
+    position: fixed;
+    top:2.5vw ;
+    width:95vw ;
+    right:2.5vw;
+    background-color: rgba(0, 18, 25, 0.8);
+    padding: 10px;
+    /* outline: solid white 1px; */
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.left-nav {
+    color: rgba(255, 255, 255, 0.8);
+    /* outline: solid white 1px; */
+    justify-content: start;
+    font-size: 17px;
+    text-transform:uppercase;
+}
+.right-nav {
+    justify-content: end;
+    /* outline: solid white 1px; */
+    font-size: 15px;
+}
+.right-nav span {
+    margin-left: 1rem;
+    height: 100%;
+}
+nav a{
+    color: rgba(255, 255, 255, 0.8);
+    list-style: none;
+    text-decoration-line: none;
+}
+nav a:hover{
+    color: rgba(179, 174, 174, 0.87);
+    text-decoration: underline;
+}
+section{
+    outline: solid white 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    align-content: center;
+    justify-content: center;
+}
+.right-top{
+    width: 80%;
+    height: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: rgba(0, 18, 25, 0.8);
+    display: grid;
+    grid-template-rows: repeat (4, auto);
+}
+.left-top,
+.right-top{
+    outline: solid white 1px;
+    
+    margin-bottom: 2rem;
+}
+.left-top img{
+    justify-items: end;
+    align-content: end;
+    object-fit:cover;
+    margin-top: 5rem;
+    
+}
+h1{
+    color: rgba(238, 155, 0, 0.8) ;
+    text-align: center;
+}
+.right-top p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+.right-top a{
+    color: #0A9396;
+    font-size: 15px;
+}
+#mid-sec{
+    background-color: rgba(0, 18, 25, 0.8);
+    padding: 8px;
+    text-align: center;
+}
+#mid-sec a{
+    color: #EE9B00;
+    text-decoration-line: none;
+    font-size: 15px;
+}
+#mid-sec:hover{
+    background-color: rgb(0, 18, 25);
+}
+main{
+    background-color: #f8edeb;
+}
+.left-main,
+.cent-main,
+.right-main{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698925-icon-92-inbox-download-512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 100%;
+    outline: solid black;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+main a{
+    background-color: rgba(232, 114, 93);
+    color: white;
+    text-align: center;
+    padding: 2px;
+    text-transform:uppercase;
+    font-size: 15px;
+    
+}
+main a:hover{
+    background-color: red;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1rem;
+    
+}
+.container p{
+    font-size: 15px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    padding-top: 50px;
+}
+h3{
+    color: rgba(232, 114, 93);
+    text-align: justify;
+    font-weight: bold;
+}
+footer{
+    background-color: #4cc9f0;
+}
+footer div{
+    background-color:#f8edeb ;
+}
+.footer{
+    background-color:#4cc9f0 ;
+    display: grid;
+    grid-template-rows: 20px;
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top:8px;
+}
+.footer img{
+    height: 20px;
+    align-content: start;
+    justify-content: center;
+    
+}
+#end-page{
+    background-color: rgba(0, 18, 25, 0.9);
+    padding: 8px;
+    text-align: center;
+    margin-top: 15px;
+}
+#end-page a{
+    color: #EE9B00 ;
+    text-decoration-line: none;
+    font-size: 15px;
+}
+#end-page:hover{
+    background-color: rgb(0, 18, 25);
+}
+.footer div{
+    padding: 5px;
+}
+footer span{
+    padding: 15px;
+    margin: 5px;
+}
+.footer div{
+    padding: 1px;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+#svg-foot{
+    justify-content: center;
+}
+
